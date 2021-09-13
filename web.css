@@ -111,7 +111,7 @@ a{
         width: 95%;
         display: flex;
         flex-wrap: wrap;
-        align-items: flex-end;
+        align-items: flex-star;
     }
     li{
         width: 40%;
