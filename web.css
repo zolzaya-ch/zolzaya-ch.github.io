@@ -120,9 +120,10 @@ a{
         height: 20%;
         display: flex;
         height: 100px;
-        font-size: 50%;
+        font-size: 20px;
     }
     .menu button{
         width: 85%;
+        font-size: 20px;
     }
 }
