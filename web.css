@@ -6,7 +6,7 @@
 }  
 body{
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     background-image: url(./09743776edfe6e77eadb198865ce3cc97899ecc5.jpg);
     background-size: cover;
     position: relative;
@@ -17,7 +17,7 @@ div::after{
     left: 0;
     top: 0;
     height: 100vh;
-    min-width: 100%;
+    max-width: 100%;
     background-color: rgba(0,0,0,0.3);
     z-index: -1; 
 }
@@ -102,7 +102,8 @@ a{
 @media (max-width:600px) {
     .menu{
         width: 100%;
-        max-height: 120vh;
+        max-height: 100%;
+        gap:0;
     }
     .nbar{
         width: 95%;
@@ -115,6 +116,7 @@ a{
     }
     li{
         width: 40%;
+        height: 20%;
         display: flex;
         height: 100px;
         font-size: 15%;
